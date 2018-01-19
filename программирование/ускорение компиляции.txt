@@ -1,0 +1,8 @@
+
+За счет хеширования объектных файлов:
+https://github.com/inorton/cclash
+https://github.com/frerich/clcache
+
+поиск заголовков
+https://include-what-you-use.org/
+https://code.google.com/archive/p/cppclean/
