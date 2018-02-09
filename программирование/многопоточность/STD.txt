@@ -1,0 +1,5 @@
+Создание потока
+http://scrutator.me/post/2012/04/04/parallel-world-p1.aspx
+http://scrutator.me/post/2012/06/03/parallel-world-p2.aspx
+http://scrutator.me/post/2012/08/28/parallel-world-p3.aspx
+https://eax.me/cpp-multithreading/
