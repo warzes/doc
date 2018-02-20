@@ -1,0 +1,60 @@
+class iObject
+{
+public: virtual ~iObject() = default;
+};
+
+class Crest : public iObject
+{
+public: Crest() { printf("Crest create"); }
+};
+
+class Null : public iObject
+{
+public: Null() { printf("Null create"); }
+};
+
+class iCreator
+{
+public:
+  virtual ~iCreator() = default;
+  virtual std::shared_ptr<iObject> Create() const = 0;
+};
+
+template <typename T>
+class Creator : public iCreator
+{
+public:
+  std::shared_ptr<iObject> Create() const override { return std::make_shared<T>(); }
+};
+
+class Factory
+{
+public:
+  template <typename T>
+  void Add(const std::string &id)
+  {
+    auto it = m_factory.find(id);
+    if ( it == m_factory.end() )
+      m_factory[id] = std::make_shared<Creator<T>>();
+  }
+
+  std::shared_ptr<iObject> Create(const std::string &id)
+  {
+    auto it = m_factory.find(id);
+    if ( it != m_factory.end() )
+      return it->second->Create();
+    return nullptr;
+  }
+
+private:
+  std::unordered_map<std::string, std::shared_ptr<iCreator>> m_factory;
+};
+использовать
+Factory factory;
+factory.Add<Crest>("Crest");
+factory.Add<Null>("Null");
+  
+std::shared_ptr<iObject> obj = factory.Create("Null");
+
+
+в улучшениях сократить эту строку factory.Add<Crest>("Crest");
