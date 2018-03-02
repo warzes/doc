@@ -1,3 +1,16 @@
 https://sourceforge.net/projects/arianne/?source=navbar
 
 https://translate.google.ru/translate?hl=ru&sl=auto&tl=ru&u=http%3A%2F%2Frynoengine.blogspot.ru%2F2015%2F06%2Fday-1-setup.html
+
+http://scrutator.me/
+http://www.codenet.ru/cat/Applications/Optimizations/
+http://rus-linux.net/lib.php?name=/MyLDP/hard/memory/memory.html
+http://codelessons.ru/vse-stati
+
+http://rynoengine.blogspot.ru/2015/06/day-1-setup.html
+
+ Майкла Абраша «Black Book of Programming: Frame of Reference»
+ 
+ http://advsys.net/ken/build.htm
+ https://habrahabr.ru/post/321986/
+ https://habrahabr.ru/post/323684/
