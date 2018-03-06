@@ -5,8 +5,4 @@ http://www.openglsuperbible.com/
 
 не забыть пройти и sampler pack (например сейчас бы посмотреть texture и sampler)
 
-
-
-
-https://github.com/bekasov/SoftPixelEngine
 https://github.com/diharaw/Terminus-Engine
