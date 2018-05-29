@@ -6,6 +6,7 @@ http://rus-linux.net/lib.php?name=/MyLDP/hard/memory/memory.html
 http://codelessons.ru/vse-stati
 
 http://rynoengine.blogspot.ru/2015/06/day-1-setup.html
+http://blog.magnum.graphics/
 
  Майкла Абраша «Black Book of Programming: Frame of Reference»
  
