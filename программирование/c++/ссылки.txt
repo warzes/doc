@@ -1,0 +1,2 @@
+сборник ссылок по C++
+https://github.com/fffaraz/awesome-cpp
