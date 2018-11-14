@@ -1,0 +1,8 @@
+по 2d
+https://habr.com/post/425989/ - Под капотом Graveyard Keeper: Как реализованы графические эффекты
+
+
+
+3d
+https://google.github.io/filament/Filament.md.html
+http://www.pbr-book.org/3ed-2018/contents.html
